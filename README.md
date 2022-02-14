@@ -7,7 +7,8 @@ RegExp regExp  = new RegExp(pattern);
 
 ----------------------------------------------------
 
-Expresion regular para validar que solo se puedan escribir numeros con dos decimales (xx.yy)
+Expresion regular para validar que solo se puedan escribir numeros con dos decimales (x.yy)
+
 FilteringTextInputFormatter.allow(RegExp(r'^(\d+)?\.?\d{0,2}'))
 
 Escrito por Alberto Carrion de Precursor Sinaptico. Desarrollador freelance Full Stack.
